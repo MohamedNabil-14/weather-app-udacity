@@ -1,0 +1,140 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fffff880;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(30px, auto);
+    grid-template-columns: 100%;
+    height:100vh;
+    background: #6b5cf1;
+    color: #f1e8b2;
+    justify-content: center;
+    grid-gap: 1em;
+    font-family: 'Oswald', sans-serif;
+}
+
+ .holder{
+    margin: auto; 
+    display: grid;
+}
+
+.feel {
+    display: grid;
+    grid-gap: 5px;
+}
+
+.entry{
+    font-size: 2em;
+    height: 100%;
+    padding: 1em;
+    margin: auto;
+    width: 80%;
+}
+
+#entryHolder{
+    font-size: 18px;
+    background: linear-gradient(#3af095fd ,#a727e2 );
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.headline {
+    font-size: 4rem;
+    color: aqua;
+    background-color: #272727;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:center ;
+}
+
+label {
+    font-size: 1.7rem;
+    
+}
+
+.zip {
+    grid-template-columns: 48% 48%;
+}
+
+button, textarea, input {
+    font-size: 1.4rem;
+}
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    padding: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 150px;
+    height: 80px;
+    background: #a727e2;
+    color: #272727;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 2px 4px 5px #444;
+}
+
+.entry-item {
+    font-size: 1.5rem;
+}
+
+.title{
+    font-size: 1.7rem;
+    text-align: center;
+    margin: auto;
+    color: #11097e;
+    font-weight: bolder;
+} 
+
+textarea{
+    background:#ffffff;
+    color: #585858;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+::placeholder {  
+    color: #3af095fd; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder {  
+    color: #3af095fd; 
+    font-family: 'Oswald', sans-serif;
+
+} 
